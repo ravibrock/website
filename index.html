@@ -13,27 +13,119 @@
     <meta name="twitter:image" content="preview.png">
   </head>
   <style>
-    body {
-        font-family: sans-serif;
-        max-width: 750px;
-        margin: 0 auto;
-        padding: 0 8px;
+    body{
+        padding:1rem;
+        margin:auto;
+        max-width:46rem;
+        font-family:pt serif,Georgia,Cambria,times new roman,Times,serif;
+        line-height:1.5;
+        font-size:20px;
+        color:rgba(0,0,0,.87);
+        -webkit-font-smoothing:antialiased;
+        font-weight:300
+    }
+    h1,h2{
+        line-height:1.2;
+        font-family:pt roboto,system-ui,segoe ui,Helvetica,Arial,sans-serif;
+        font-weight:400;
+        text-transform:uppercase;
+        margin:1.34em 0 0
+    }
+    h1{
+        font-size:1.95em
+    }
+    h2{
+        font-size:1.25em;
+        border-bottom:2px solid rgba(0,0,0,.87)
+    }
+    h1 a{
+        color:rgba(0,0,0,.87)
+    }
+    p{
+        margin:.67em 0 1em
+    }
+    a{
+        color:#0076df;
+        text-decoration:none;
+        word-break:break-word
+    }
+    a:hover{
+        color:rgba(0,0,0,.87)
+    }
+    ul,ol{
+        list-style-position:outside;
+        margin-left:1em
+    }
+    img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:100%
+    }
+    pre,code{
+        font-family:roboto mono,SFMono-Regular,Consolas,liberation mono,Menlo,monospace;
+        font-weight:400;
+        font-size:18px;
+        color:rgba(0,0,0,.6);
+        background:#eee
+    }
+    code{
+        padding:.2rem .4rem;
+        font-size:14px;
+        border-radius:2px
+    }
+    pre{
+        overflow-y:auto;
+        line-height:20px;
+        border-radius:2px;
+        padding:1em
+    }
+    pre code{
+        font-size:14px;
+        padding:0;
+        color:rgba(0,0,0,.87)
+    }
+    footer{
+        font-size:12px
+    }
+    @media(prefers-color-scheme:dark){
+        body,h1 a,h2 a{
+            background-color:rgb(67, 67, 74);
+            color:#e4e4e4
+        }
+        pre,pre code{
+            background:rgb(36, 36, 41);
+            color:#e4e4e4
+        }
+        h2{
+            border-bottom:1px solid #e4e4e4
+        }
+        code{
+            color:#aaa;
+            background:#333
+        }
+        a{
+            color:#d89ed8
+        }
+        a:hover{
+            color:#e4e4e4
+        }
     }
   </style>
   <body>
     <h1>Hi! I'm Ravi Brock.</h1>
-    <hr>
+    
     <a id="about_me"></a>
-    <h3>About me:</h3>
+    <h2>About me:</h2>
     <ul>
         <li>I'm a senior at Fayetteville High School, in Arkansas</li>
         <li>Planning to major in computer science</li>
         <li>Interested in coding, data science, finance, and tech</li>
         <li>Dual citizen of the US and Canada</li>
     </ul>
-    <hr>
+    
     <a id="skills"></a>
-    <h3>Skills:</h3>
+    <h2>Skills:</h2>
     <ul>
         <li>R (Programming language)</li>
             <ul>
@@ -54,9 +146,9 @@
             </ul>
         </li>
     </ul>
-    <hr>
+    
     <a id="work_experience"></a>
-    <h3>Work experience:</h3>
+    <h2>Work experience:</h2>
     <ul>
         <li>Student journalist - University of Arkansas
             <ul>
@@ -81,9 +173,9 @@
             </ul>
         </li>
     </ul>
-    <hr>
+    
     <a id="links"></a>
-    <h3>Links:</h3>
+    <h2>Links:</h2>
     <ul>
         <li>
             <script>
