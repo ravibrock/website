@@ -17,3 +17,11 @@ body {
 a {
     color: inherit;
 }
+
+.bottom-image {
+    position: fixed;
+    bottom: 0;
+    left: 10;
+    width: auto; /* adjust as needed */
+    max-width: 750px; /* prevents overflow */
+}
