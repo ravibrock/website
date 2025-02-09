@@ -4,15 +4,6 @@
     <loc>https://ravibrock.com/</loc>
   </url>
   <url>
-    <loc>https://ravibrock.com/blog/stack</loc>
-  </url>
-  <url>
     <loc>https://ravibrock.com/pubkey.asc</loc>
-  </url>
-  <url>
-    <loc>https://ravibrock.com/resume.pdf</loc>
-  </url>
-  <url>
-    <loc>https://ravibrock.com/blog/making-zsh-load-instantly</loc>
   </url>
 </urlset>
