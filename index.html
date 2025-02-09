@@ -1,195 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Ravi Brock</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Ravi Brock">
-    <meta name="twitter:title" content="Ravi Brock">
-    <meta name="description" content="Ravi's personal website">
-    <meta property="og:description" content="Ravi's personal website">
-    <meta name="twitter:description" content="Ravi's personal website">
-    <meta property="og:image" content="preview.png">
-    <meta name="twitter:image" content="preview.png">
-    <meta name="google-site-verification" content="b3grNTwDjJt8vI3nau8m5svKU3hzCkeJzBCHQlKViTo" />
-  </head>
-  <style>
-    body{
-        padding:1rem;
-        margin:auto;
-        max-width:46rem;
-        font-family:pt serif,Georgia,Cambria,times new roman,Times,serif;
-        line-height:1.5;
-        font-size:20px;
-        color:rgba(0,0,0,.87);
-        -webkit-font-smoothing:antialiased;
-        font-weight:300
+    <head>
+        <meta charset="utf-8" />
+        <title>Ravi Brock</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Ravi Brock">
+        <meta name="twitter:title" content="Ravi Brock">
+        <meta name="google-site-verification" content="b3grNTwDjJt8vI3nau8m5svKU3hzCkeJzBCHQlKViTo" />
+    </head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo">
+    <style>
+    body {
+        background-color: #EDE4CE;
+        color: black;
+        font-family: 'Cardo', serif;
+        font-size: 16px;
+        margin: 5ch;
+        max-width: 75ch;
     }
-    h1,h2{
-        line-height:1.2;
-        font-family:pt roboto,system-ui,segoe ui,Helvetica,Arial,sans-serif;
-        font-weight:400;
-        text-transform:uppercase;
-        margin:1.34em 0 0
+
+    /* @media (prefers-color-scheme: dark) { */
+    /*     body { */
+    /*         background-color: #0F0F0F; */
+    /*         color: #C8C8C8; */
+    /*     } */
+    /* } */
+
+    a {
+        color: inherit;
     }
-    h1{
-        font-size:1.95em
-    }
-    h2{
-        font-size:1.25em;
-        border-bottom:2px solid rgba(0,0,0,.87)
-    }
-    h1 a{
-        color:rgba(0,0,0,.87)
-    }
-    p{
-        margin:.67em 0 1em
-    }
-    a{
-        color:#0076df;
-        text-decoration:none;
-        word-break:break-word
-    }
-    a:hover{
-        color:rgba(0,0,0,.87)
-    }
-    ul,ol{
-        list-style-position:outside;
-        margin-left:1em
-    }
-    img{
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        max-width:100%
-    }
-    pre,code{
-        font-family:roboto mono,SFMono-Regular,Consolas,liberation mono,Menlo,monospace;
-        font-weight:400;
-        font-size:18px;
-        color:rgba(0,0,0,.6);
-        background:#eee
-    }
-    code{
-        padding:.2rem .4rem;
-        font-size:14px;
-        border-radius:2px
-    }
-    pre{
-        overflow-y:auto;
-        line-height:20px;
-        border-radius:2px;
-        padding:1em
-    }
-    pre code{
-        font-size:14px;
-        padding:0;
-        color:rgba(0,0,0,.87)
-    }
-    footer{
-        font-size:12px
-    }
-    @media(prefers-color-scheme:dark){
-        body,h1 a,h2 a{
-            background-color:rgb(67, 67, 74);
-            color:#e4e4e4
-        }
-        pre,pre code{
-            background:rgb(36, 36, 41);
-            color:#e4e4e4
-        }
-        h2{
-            border-bottom:1px solid #e4e4e4
-        }
-        code{
-            color:#aaa;
-            background:#333
-        }
-        a{
-            color:#d89ed8
-        }
-        a:hover{
-            color:#e4e4e4
-        }
-    }
-  </style>
-  <body>
-    <h1 id="hi">Hi! I'm Ravi Brock.</h1>
-    <h2 id="about-me">About me:</h2>
-    <ul>
-        <li>Student at Rice University, studying computer science</li>
-        <li>Interested in coding, data science, finance, and tech</li>
-        <li>Dual citizen of the US and Canada</li>
-    </ul>
-    <h2 id="blog">Blog:</h2>
-    <ul>
-        <li><a href="blog/making-zsh-load-instantly.html">Making Zsh Load Instantly - 5/9/23</a></li>
-        <li><a href="blog/stack">Stack - 1/21/23</a></li>
-    </ul>
-    <h2 id="skills">Skills:</h2>
-    <ul>
-        <li>R (Programming language)</li>
-            <ul>
-                <li>Worked extensively with R to research COVID data</li>
-                <li>Wrote scripts with R to make my personal business (details below) more profitable</li>
-            </ul>
-        <li>Python
-            <ul>
-                <li>Originally learned Python to analyze my network on Twitter</li>
-                <li>Later leveraged this experience to work as an intern at a hedge fund</li>
-                <li>Worked with the Requests and Pandas modules to scrape posts from social media</li>
-            </ul>
-        </li>
-        <li>Excel
-            <ul>
-                <li>Used Excel along with R to clean and analyze data sets</li>
-                <li>Built custom Excel spreadsheets for my business's accounting and inventory management</li>
-            </ul>
-        </li>
-    </ul>
-    <h2 id="work-experience">Work experience:</h2>
-    <ul>
-        <li>Intern - Indra Capital
-            <ul>
-                <li>Worked as a paid intern at a hedge fund during my senior year of high school</li>
-                <li>Developed programs to scrape user posts from social media</li>
-                <li>Used Python and the Twitter + Reddit APIs to create custom scraping tools</li>
-            </ul>
-        </li>
-        <li>Student Journalist - University of Arkansas
-            <ul>
-                <li>Enrolled concurrently at the University of Arkansas as a data journalist</li>
-                <li>Used R, Excel, Tableau, and Flourish to process data and create meaningful visualizations</li>
-                <li>Wrote and researched stories about COVID-19 in Arkansas</li>
-                <li>Fact-checked other students' stories before publication</li>
-            </ul>
-        </li>
-        <li>Founder - Arkansashype Reselling
-            <ul>
-                <li>Started a business buying shoes from retailers and selling them on the aftermarket at 13</li>
-                <li>Worked on this for 3 years and scaled it into a business generating $50,000+ of gross profits</li>
-                <li>Used Excel for accounting and R to scrape data for optimizing my business</li>
-            </ul>
-        </li>
-    </ul>
-    <h2 id="links">Links:</h2>
-    <ul>
-        <li>
-            <script>
-                var me = "ravikeats";
-                var place = "gmail.com";
-                var str = new String(`Email - ${me}@${place}`);
-                var URL = `mailto:${me}@${place}`;
-                document.write(str.link( URL ));
-            </script>
-            <noscript>Email <span>- ravikeats@</span><span style="display:none;">HIDDEN JUNK</span><span>gmail.com</span></noscript>
-        </li>
-        <li><a href="pubkey.asc">PGP - AF0D 564A 7A02 0F00 3548 &nbsp;C523 6235 B728 B925 9C73</a></li>
-        <li><a href="https://github.com/ravibrock/" target="_blank" rel="noopener noreferrer">GitHub - ravibrock</a></li>
-        <li><a href="https://www.linkedin.com/in/ravibrock/" target="_blank" rel="noopener noreferrer">LinkedIn - ravibrock</a></li>
-        <li><a href="https://raw.githubusercontent.com/ravibrock/resume/main/resume.pdf" target="_blank" rel="noopener noreferrer">Resume - PDF</a></li>
-        <li><a href="https://github.com/ravibrock/website" target="_blank" rel="noopener noreferrer">Source code - git repo</a></li>
-    </ul>
-  </body>
+    </style>
+    <body>
+        Hi! I'm Ravi Brock. I'm a student at Rice University studying computer science. Some of my interests are <a href="https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion" target="_blank" rel="noopener noreferrer">anime</a>, <a href="https://en.wikipedia.org/wiki/Chungking_Express" target="_blank" rel="noopener noreferrer">cinema</a>, <a href="https://www.strava.com/athletes/73175216" target="_blank" rel="noopener noreferrer">cycling</a>, <a href="https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society" target="_blank" rel="noopener noreferrer">economics</a>, <a href="https://en.wikipedia.org/wiki/Mike_Mentzer" target="_blank" rel="noopener noreferrer">lifting</a>, <a href="https://github.com/ravibrock/dotfiles/tree/main/nvim" target="_blank" rel="noopener noreferrer">Neovim</a>, <a href="https://slatestarcodex.com/" target="_blank" rel="noopener noreferrer">rationalism</a>, and <a href="https://en.wikipedia.org/wiki/Spring_Snow" target="_blank" rel="noopener noreferrer">reading</a>. To find out more about me, you can check out my <a href="https://github.com/ravibrock/" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/ravibrock/" target="_blank">LinkedIn</a>, or <a href="https://raw.githubusercontent.com/ravibrock/resume/main/resume.pdf/" target="_blank">resume</a>. Alternatively, feel free to reach out at <script> var me = "ravikeats"; var place = "gmail.com"; var str = `${me}@${place}`; var URL = `mailto:${me}@${place}`; document.write(str.link( URL )); </script><noscript><span>ravikeats@</span><span style="display:none;">HIDDEN JUNK</span><span>gmail.com</span></noscript>; my PGP key is available <a href="pubkey.asc">here</a>.
+    </body>
 </html>
