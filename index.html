@@ -27,11 +27,13 @@
             var textRect = textElem.getBoundingClientRect();
 
             if (document.body.scrollHeight <= viewportHeight) {
-                // no scrolling: anchor image to bottom and size to 75% of available vertical space
+                // no scrolling: anchor image to bottom
                 img.style.position = "fixed";
                 img.style.bottom = "0";
-                var availableSpace = viewportHeight - textRect.top;
-                var desiredHeight = 0.75 * availableSpace;
+                // use the bottom of the text to compute available space so the image doesn't cover it
+                var availableSpace = viewportHeight - textRect.bottom;
+                // using Math.max() looks more natural than either setting a percentage or a fixed margin
+                var desiredHeight = Math.max(availableSpace - 40, 0.9 * availableSpace);
 
                 if (img.naturalWidth && img.naturalHeight) {
                     var aspect = img.naturalWidth / img.naturalHeight;
