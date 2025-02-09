@@ -1,0 +1,19 @@
+body {
+    background-color: #EDE4CE;
+    color: black;
+    font-family: cardo, serif;
+    font-size: 16px;
+    margin: 5ch;
+    max-width: 75ch;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0F0F0F;
+        color: #C8C8C8;
+    }
+}
+
+a {
+    color: inherit;
+}
