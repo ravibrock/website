@@ -7,15 +7,22 @@ body {
     max-width: 75ch;
 }
 
+::selection {
+    background: #F7B3A8;
+}
+
+a {
+    color: inherit;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #0F0F0F;
         color: #C8C8C8;
     }
-}
-
-a {
-    color: inherit;
+    ::selection {
+        background: #914F4F;
+    }
 }
 
 .bottom-image {
