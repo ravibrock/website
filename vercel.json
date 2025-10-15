@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/resume.pdf",
-      "destination": "/resume.ts"
+      "destination": "/resume"
     }
   ]
 }
