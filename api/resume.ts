@@ -17,8 +17,7 @@ export default async function handler() {
   return new Response(upstream.body, {
     headers: {
       "content-type": "application/pdf",
-      // optional caching:
-      // "cache-control": "public, max-age=300"
+      "cache-control": "public, max-age=0, s-maxage=600"
     }
   });
 }
