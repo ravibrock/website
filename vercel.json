@@ -1,9 +1,9 @@
 {
   "cleanUrls": true,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/resume.pdf",
-      "destination": "https://github.com/ravibrock/resume/releases/download/latest/resume.pdf"
+      "src": "/resume.pdf",
+      "dest": "api/resume"
     }
   ]
 }
