@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/resume.pdf",
-      "destination": "https://raw.githubusercontent.com/ravibrock/resume/refs/heads/main/resume.pdf"
+      "destination": "https://github.com/ravibrock/resume/releases/download/latest/resume.pdf"
     }
   ]
 }
