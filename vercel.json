@@ -2,8 +2,8 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "src": "/resume.pdf",
-      "dest": "api/resume"
+      "source": "/resume.pdf",
+      "destination": "/api/resume"
     }
   ]
 }
